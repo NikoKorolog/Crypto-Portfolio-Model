@@ -1,2 +1,2 @@
 # Crypto-Portfolio-Model
-C
+I pulled a years worth of performance data from the Coingecko api on all of the crypto assets that I hold, and used the pypfopt library to calculate sharpe ratio of each of the assets and then used the same library to optimize the weights of the portfolio based on that information. Interesting to see that out of all the assets I tested that XRP has the highest risk adjusted return over the period I looked at. When XRP is included in the portfolio the optimal weight for XRP is almost 100% and everything else basically 0, which is actually similar to how my portfolio is already organized.
